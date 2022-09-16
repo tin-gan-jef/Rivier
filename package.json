@@ -1,7 +1,6 @@
 {
   "name": "rouge-booking-web-app",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,5 +13,16 @@
   "license": "ISC",
   "dependencies": {
     "nodemon": "^2.0.19"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tin-gan-jef/Rivier.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/tin-gan-jef/Rivier/issues"
+  },
+  "homepage": "https://github.com/tin-gan-jef/Rivier#readme",
+  "description": ""
 }
