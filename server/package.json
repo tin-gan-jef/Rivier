@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+  "engine": {
+    "node": "18.9.0",
+    "npm": "8.19.1"
+  },
   "scripts": {
     "start": "nodemon server/index.js",
     "client": "npm start --prefix client",

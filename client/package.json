@@ -1,6 +1,10 @@
 {
   "name": "client",
   "version": "0.1.0",
+  "engine": {
+    "node": "18.9.0",
+    "npm": "8.19.1"
+  },
   "private": true,
   "dependencies": {
     "@date-io/date-fns": "^2.14.0",
