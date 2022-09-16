@@ -1,0 +1,76 @@
+.about_container{
+    width: 100%;
+}
+.about_slide{
+    height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.400)), url('../../../public/images/im16.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about_title{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 190px;
+    padding: 50px;
+}
+.about_wrapper{
+    margin: 50px 0;
+    padding: 0 50px;
+}
+.about_indication{
+    color: gray;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+.about_header{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.about_description{
+    width: 80%;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.services{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.service_title{
+    margin-top: 20px;
+}
+.service_desc{
+    color: gray;
+    line-height: 30px;
+    text-align: justify;
+}
+@media screen and (max-width: 850px) {
+    .services{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .about_wrapper{
+        margin: 50px 0;
+        padding: 0 20px;
+    }
+    .about_description{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .about_title{
+        position: absolute;
+        top: 190px;
+        padding: 50px 20px;
+    }
+    .services{
+        display: block;
+    }
+    .service_img{
+        height: 300px;
+    }
+}

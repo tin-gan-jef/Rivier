@@ -1,0 +1,115 @@
+.book_slide{
+    height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.400)), url('../../../public/images/im16.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.book_title{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 190px;
+    padding: 50px;
+}
+.book_wrapper{
+    margin: 50px;
+}
+.book_indication{
+    color: gray;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+.book_header{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.book_description{
+    margin-bottom: 30px;
+    width: 90%;
+    line-height: 30px;
+}
+.books{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.book_rates{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.book_form{
+    padding-left: 50px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.book_title_title{
+    font-style: italic;
+    text-transform: uppercase;
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.form{
+    width: 100%;
+    display: block;
+}
+.email_label{
+    margin-top: 0;
+}
+label{
+  margin: 15px 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+input, textarea{
+    outline: none;
+    padding: 5px 10px;
+}
+.form_selection{
+    padding: 10px 10px;
+}
+.form_input{
+    outline: none;
+    display: flex;
+    flex-direction: column;
+}
+.form_input_double{
+    display: grid;
+    column-gap: 15px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.form_input_left, .form_input_right{
+    display: flex;
+    flex-direction: column;
+}
+.form_btn{
+    margin-top: 15px;
+    border: none;
+    padding: 10px 50px;
+    background-color: darkorange;
+    color: white;
+    
+}
+@media screen and (max-width: 1000px) {
+    .books{
+        display: block;
+    }
+    .book_form{
+        padding-left: 0;
+        margin: 100px 0;
+    }
+ }
+
+ @media screen and (max-width: 865px) {
+    .book_wrapper{
+        margin: 20px;
+    }
+ }
+
+ @media screen and (max-width: 620px) {
+    .form_input_double{
+        display: block;
+    }
+ }

@@ -1,0 +1,56 @@
+[
+    {
+        "index": "01",
+        "image": "./images/laundry.jpg",
+        "title": "LAUNDROMAT BUILDING",
+        "description": "A Our modern laundromat building is video monitored 24/7 for your safety, and features parking for your convenience."
+    },
+    {
+        "index": "02",
+        "image": "./images/shower.jpg",
+        "title": "WALK IN BATHHOUSE",
+        "description": "Our bathrooms are equipped with large walk-in showers and endless hot water."
+    },
+    {
+        "index": "03",
+        "image": "./images/pavilion.jpg",
+        "title": "PAVILION CAMPING",
+        "description": " A pavilion to be rented for certain events, and where we will host special events."
+    },
+    {
+        "index": "04",
+        "image": "./images/boat.jfif",
+        "title": "BOAT LAUNCHING",
+        "description": "Smaller boat launch on site with large public landing approx 1 mile away."
+    },
+    {
+        "index": "05",
+        "image": "./images/fish.jfif",
+        "title": "FISHING PONDS",
+        "description": "Our two fishing ponds are always kept well stocked and fishing is free to all campers. A fence is also installed around the pond for child safety."
+    },
+    {
+        "index": "06",
+        "image": "./images/im11.jpg",
+        "title": "FIRE PITS AND TABLES",
+        "description": "Each site has a fire pit, picnic table and water hose so that you can enjoy the outdoors."
+    },
+    {
+        "index": "07",
+        "image": "./images/im.jpg",
+        "title": "SPACIOUS RV SITES",
+        "description": "RV sites are spaced out through the park so that you won't feel cramped by your neighbor"
+    },
+    {
+        "index": "08",
+        "image": "./images/shade.jpg",
+        "title": "SHADE TREES",
+        "description": "The park is shaded by many beautiful trees providing a forest get-away atmosphere."
+    },
+    {
+        "index": "09",
+        "image": "./images/im014.jpg",
+        "title": "HOOKUPS",
+        "description": "We will have washer and dryer on site and full hookups"
+    }
+]

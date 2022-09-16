@@ -1,0 +1,171 @@
+.menu_container{
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    padding: 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.menu_left{
+    flex: 3;
+}
+.menu_left .logo{
+    font-size: 25px;
+}
+.menu_center{
+    flex: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu_right{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu_link{
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+}
+.menu_link:hover{
+    color: darkorange;
+}
+.menu_right .menu_open{
+    cursor: pointer;
+}
+
+.burger_navbar{
+position: fixed;
+z-index: 9999;
+top: 0;
+bottom: 0;
+right: 0;
+background-color: white;
+opacity: 0.89;
+width: 250px;
+padding: 20px;
+display: flex;
+flex-direction: column;
+}
+
+.burger_link{
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+    border-bottom: 1px solid gray;
+}
+.burger_link:hover{
+    color: darkorange;
+}
+
+.burger_btn{
+    margin-top: 15px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: darkorange;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.clear{
+    color: black;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1170px) {
+    .logo{
+        font-size: 18px;
+    }
+    .menu_center{
+        font-size: 14px;
+        justify-content: flex-end;
+    }
+  }
+@media screen and (max-width: 1170px) {
+    .logo{
+        font-size: 16px;
+    }
+    .menu_center{
+        font-size: 16px;
+        justify-content: flex-end;
+    }
+    .menu_link{
+        margin-right: 25px;
+    }
+ }
+ @media screen and (max-width: 1050px) {
+    .menu_left .logo{
+        font-size: 20px;
+    }
+    .menu_center{
+        font-size: 15px;
+        justify-content: flex-end;
+    }
+    .menu_link{
+        margin-right: 15px;
+    }
+ }
+ @media screen and (max-width: 867px) {
+    .menu_container{
+        padding: 20px 20px;
+    }
+    .menu_left .logo{
+        font-size: 25px;
+    }
+    .menu_center{
+        display: none;
+    }
+    .menu_link{
+        margin-right: 20px;
+    }
+ }
+ @media screen and (max-width: 500px) {
+    .menu_container{
+        padding: 20px 20px;
+    }
+    .menu_left .logo{
+        font-size: 20px;
+    }
+    .menu_center{
+        display: none;
+    }
+    .menu_link{
+        margin-right: 20px;
+    }
+ }
+ @media screen and (max-width: 376px) {
+    .menu_container{
+        padding: 20px 20px;
+    }
+    .menu_left .logo{
+        font-size: 18px;
+    }
+    .menu_center{
+        display: none;
+    }
+ }
+ @media screen and (max-width: 330px){
+    .menu_left .logo{
+        font-size: 16px;
+    }
+ }
+ @media screen and (max-width: 280px) {
+    .menu_container{
+        padding: 20px 20px;
+    }
+    .menu_left .logo{
+        font-size: 14px;
+    }
+    .menu_center{
+        display: none;
+    }
+ }

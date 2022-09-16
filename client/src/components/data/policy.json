@@ -1,0 +1,44 @@
+[
+    {
+        "index": "01",
+        "title":"RULE - ONE",
+        "description": [
+             "Must follow directions to enter and exit campground (it is across the levee and you need to enter and exit the ramp)."
+        ]
+    },
+    {
+        "index": "02",
+        "title":"RULE - TWO",
+        "description": [
+             "Retrieve (or print before arrival) parking passes as you cross the levee and enter the campground. "
+        ]
+    },
+    {
+        "index": "03",
+        "title":"RULE - THREE",
+        "description": [
+             "Park vehicles, boats, golf carts, ATVs in designated areas at your campsite or in large parking area by boat ramp. Limit 2 per site."
+        ]
+    },
+    {
+        "index": "04",
+        "title":"RULE - FOUR",
+        "description": [
+             " Minimize outside items, allowing the area to be mowed and nothing to possibly get airborne by wind."
+        ]
+    },
+    {
+        "index": "05",
+        "title":"RULE - FIVE",
+        "description": [
+             "Dispose of all trash in onsite dumpster."
+        ]
+    },
+    {
+        "index": "06",
+        "title":"RULE - SIX",
+        "description": [
+             "Quiet time 10:00 p.m. - 7:00 a.m."
+        ]
+    }
+]

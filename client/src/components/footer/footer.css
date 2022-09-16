@@ -1,0 +1,94 @@
+.footer_container{
+    background-color: aqua;
+    color: white;
+}
+.footer{
+    padding: 50px;
+    background: linear-gradient(rgba(0, 0, 0, 0.350), rgba(0, 0, 0, 0.350)), url('../../../public/images/footer.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 50px;
+}
+.footer_text{
+    display: flex;
+    flex-direction: column;
+}
+.footer_title{
+    max-width: max-content;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border-bottom: 2px solid darkorange;
+}
+.footer_description{
+    line-height: 30px;
+    text-align: justify;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-style: none;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+    border-bottom: 1px solid gray;
+}
+.link:hover{
+    color: darkorange;
+}
+.footer_icon{
+    margin-bottom: 20px;
+}
+.icon{
+    margin-right: 10px;
+}
+.footer_media{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+@media screen and (max-width: 1030px) {
+    .footer{
+        padding: 20px;
+        background: linear-gradient(rgba(0, 0, 0, 0.350), rgba(0, 0, 0, 0.350)), url('../../../public/images/footer.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 30px;
+        row-gap: 30px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .footer{
+        padding: 20px;
+        background: linear-gradient(rgba(0, 0, 0, 0.350), rgba(0, 0, 0, 0.350)), url('../../../public/images/footer.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 30px;
+        row-gap: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer{
+        padding: 20px;
+        background: linear-gradient(rgba(0, 0, 0, 0.350), rgba(0, 0, 0, 0.350)), url('../../../public/images/footer.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 30px;
+    }
+}

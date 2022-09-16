@@ -1,0 +1,118 @@
+.booking_home_container{
+    width: 100vw;
+    display: flex;
+    background-color: rgb(224, 228, 254);
+}
+.booking_home_content{
+    flex: 9;
+}
+.booking_content{
+    margin-top: 60px;
+}
+.dashboard_lable{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 5px 20px;
+}
+.label_right{
+    font-size: 16px;
+    font-weight: bold;
+}
+.label_left{
+    font-size: 13px;
+}
+.bookings{
+    width: 100%;
+    padding: 20px;
+    padding: 20px;
+    overflow: hidden;
+}
+.bookings_wrapper{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+.bookings_header{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.bookings_title{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.bookings_description{
+    font-size: 13px;
+    color: gray;
+}
+.book_label{
+    width: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-bottom: -25px;
+}
+.label_name1{
+    width: 16.6666667%;
+}
+.label_name2{
+    width: 16.6666667%;
+    padding-left: 15px;
+}
+.label_name3{
+    width: 16.6666667%;
+    padding-left: 34px;
+}
+.label_name4{
+    width: 16.6666667%;
+    padding-left: 52px;
+}
+.label_name5{
+    width: 16.6666667%;
+    padding-left: 67px;
+
+}
+.label_name6{
+    width: 16.6666667%;
+    padding-left: 80px;
+}
+.book_each{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(244, 244, 244);
+    padding: 8px 0;
+    margin: 35px 0;
+}
+.book_fname, .book_lname, .book_email, .book_arrival, .book_depart{
+    flex: 1;
+}
+.book_buttoms{
+    display: flex;
+}
+.view_btn{
+    margin-right: 10px;
+    padding: 2px 15px;
+    border: none;
+    background-color: darkgreen;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+    font-size: 13px;
+}
+.del_btn{
+    border: none;
+    padding: 2px 10px;
+    font-weight: bold;
+    background-color: rgb(154, 3, 3);
+    color: white;
+    font-size: 13px;
+    border-radius: 2px;
+}

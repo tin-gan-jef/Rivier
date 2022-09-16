@@ -1,0 +1,100 @@
+.admin_home_container{
+    width: 100vw;
+    display: flex;
+    background-color: rgb(224, 228, 254);
+}
+.admin_home_content{
+    flex: 9;
+}
+.admin_content{
+    margin-top: 60px;
+}
+.dashboard_lable{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 5px 20px;
+}
+.label_right{
+    font-size: 16px;
+    font-weight: bold;
+}
+.label_left{
+    font-size: 13px;
+}
+.content_top{
+    margin: 20px 10px;
+    display: flex;
+}
+.chart1_container{
+    height: auto;
+    display: flex;
+}
+.chart1_left{
+    background-color: white;
+    flex: 5;
+    height: 480px;
+    margin: 0 20px;
+}
+.sales_header{
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 5px 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.chart1_right{
+    flex: 3;
+    height: auto;
+    margin-right: 20px;
+}
+.chart1_right_top{
+    padding: 10px;
+    height: 160px;
+    background-color: white
+}
+.chart1_right_top_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.chart1_right_top_middle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top_middle_left{
+    flex: 10;
+    
+}
+.top_middle_right{
+    margin-top: -30px;
+    flex: 7;
+    margin-left: 20px;
+}
+.chart1_btn{
+    margin-top: -10px;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 2px;
+    color: white;
+    width: 100px;
+    background-color: darkblue;
+}
+
+.chart1_right_bottom{
+    margin-top: 20px;
+    height: 300px;
+}
+
+.admin_footer_container{
+    position: absolute;
+    bottom: 0;
+    left: 244px;
+    width: 84%;
+    height: 18px;
+    background-color: white;
+}

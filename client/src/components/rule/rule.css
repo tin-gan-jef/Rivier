@@ -1,0 +1,78 @@
+.rulecontainer{
+    width: 100%;
+}
+.rule_slide{
+    height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.400)), url('../../../public/images/im16.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rule_title{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 190px;
+    padding: 50px;
+}
+.rule_wrapper{
+    margin: 50px;
+}
+.rule_indication{
+    color: gray;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+.rule_header{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.rule_description{
+    margin-bottom: 30px;
+    width: 90%;
+    line-height: 30px;
+}
+.rules{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.rule{
+    width: 70%;
+}
+.rule_policy_title{
+    color: gray;
+    font-size: 14px;
+}
+.rule_desc{
+    border-left: 2px darkorange solid;
+    text-align: justify;
+    line-height: 30px;
+    padding-left: 20px;
+}
+@media screen and (max-width: 900px) {
+    .rule{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 550px) {
+    .rule_title{
+        position: absolute;
+        top: 190px;
+        padding: 50px 20px;
+    }
+    .rule_wrapper{
+        margin: 50px 20px;
+    }
+    .rule_description{
+        text-align: justify;
+        width: 100%;
+    }
+    .rules{
+        display: block;
+    }
+    .rule{
+        width: 100%;
+    }
+}

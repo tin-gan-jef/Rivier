@@ -1,0 +1,38 @@
+.widget-container{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    margin: 0 10px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+
+.widget_title{
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.widget_number{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: gray;
+
+}
+.value_number{
+    margin-right: 10px;
+    padding: 2px 5px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+.true{
+    border-radius: 5px;
+    background-color: darkgreen;
+}
+.false{
+    border-radius: 5px;
+    background-color: darkred;
+}
+
